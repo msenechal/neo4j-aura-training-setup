@@ -32,7 +32,11 @@ def parse_arguments() -> argparse.Namespace:
             python main.py --mode=delete
             
             # Delete only databases with specific base name
+<<<<<<< HEAD
             python main.py --mode delete --name=MS_TRAINING_AUTOMATION_TEST
+=======
+            python main.py --mode delete --name MS_TRAINING_AUTOMATION_TEST
+>>>>>>> 9c116d8 (Updated readme and examples)
         """
     )
     
